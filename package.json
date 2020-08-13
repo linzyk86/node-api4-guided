@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"scripts": {
-		"watch": "nodemon index.js",
+		"watch": "cross-enc COHORT=webpt16 nodemon index.js",
 		"start": "node index.js"
 	},
 	"devDependencies": {
