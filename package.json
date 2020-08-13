@@ -1,11 +1,12 @@
 {
 	"private": true,
 	"scripts": {
-		"watch": "nodemon index.js",
+		"watch": "cross-enc COHORT=webpt16 nodemon index.js",
 		"start": "node index.js"
 	},
 	"devDependencies": {
 		"cross-env": "^7.0.2",
+		"dotenv": "^8.2.0",
 		"nodemon": "^2.0.4"
 	},
 	"dependencies": {
